@@ -12,13 +12,13 @@ module.exports = class Octokit {
   }
 
   async createIssue ({body, assignee, releaseHandle, releaseName}) {
-    await octokit.issues.create({
+    return await octokit.issues.create({
       owner: 'livingdocsIO',
       repo: 'livingdocs-planning',
       title: `Release Management Checklist for ${releaseHandle} Release`,
       body: body,
       assignee: assignee,
-      labels: ['rm/checklist', `${releaseName}`]
+      labels: ['rm/checklist', `${releaseHandle}`]
     })
   }
 }

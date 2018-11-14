@@ -10,7 +10,6 @@ const argv = require('yargs')
   .argv
 const run = require('./index')
 const {releaseHandle, releaseName, assignee, token} = argv
-console.log(argv)
 
 run({releaseHandle, releaseName, assignee, token})
   .then((issue) => {

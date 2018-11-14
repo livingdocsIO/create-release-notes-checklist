@@ -1,8 +1,7 @@
 const getBody = (releaseName) => {
   return `
   **Important Pull Requests / Topics to integrate into the Release**
-  * <topic> (<name>)
-    * <link to pr>
+  * topic (who) [PR](http://link.to.pr)
   # Preparation (-7 days before code freeze)
   * [ ] Announce integration week in #announcements
     \`\`\`
