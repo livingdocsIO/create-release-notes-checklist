@@ -1,0 +1,33 @@
+{
+  "name": "@daraff/create-release-notes-checklist",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "bin": "./cli.js",
+  "author": "Ralph Meier",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^15.9.4",
+    "lodash": "^4.17.4",
+    "yargs": "^12.0.2"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaRaFF/create-release-notes-checklist.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.10.6",
+    "travis-deploy-once": "^5.0.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/DaRaFF/create-release-notes-checklist/issues"
+  },
+  "homepage": "https://github.com/DaRaFF/create-release-notes-checklist#readme"
+}
