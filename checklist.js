@@ -2,23 +2,12 @@ const getBody = (releaseName) => {
   return `
   **Important Pull Requests / Topics to integrate into the Release**
   * topic (who) [PR](http://link.to.pr)
-  # Preparation (-7 days before code freeze)
-  * [ ] Announce integration week in #announcements
-    \`\`\`
-    The integration week for ${releaseName} has started
-    * Please do your integration work
-    * Please review and merge open PR's until friday
-    * Next tuesday I will create the release branches
-    \`\`\`
-  * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
-  * [ ] Use the [release notes](https://github.com/upfrontIO/livingdocs-release-notes) generator with \`npx https://gist.github.com/DaRaFF/8401c3016e42ff50982a1d910fc3d54e\`
-
   # Reminder (-3 days before code freeze)
   * [ ] Remind the team about todo's for the release in #announcements
     \`\`\`
     Hey all, the integration week is almost over
         * Please finish your integration work
-        * Please review and merge open PR's until monday morning
+        * Please review and merge open PR's until monday evening
         * Are there important pull requests/tickets which *MUST* be in the upcoming release? Please contact me, if necessary.
     \`\`\`
   # Code Freeze
@@ -29,7 +18,10 @@ const getBody = (releaseName) => {
     * Are there important un-merged pull requests? please contact me.
     \`\`\`
   * [ ] Announce and [create the upstream release branch](https://github.com/upfrontIO/team/blob/master/How-We-Work/Release-Process/Details/Create-Release-Branches.md) for the server/editor
-  * [ ] Finalise the [release notes](https://github.com/upfrontIO/livingdocs-release-notes)
+  * Release Notes
+    * [ ] Use the [release notes](https://github.com/upfrontIO/livingdocs-release-notes) generator with \`npx github:DaRaFF/release-notes-generator\`
+    * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
+    * [ ] Polish/Finish the [release notes](https://github.com/upfrontIO/livingdocs-release-notes)
   * UX Check
     * [ ] Integrate the latest version from master into service master
     * [ ] Inform the UX team based on the latest release notes to check the UX
