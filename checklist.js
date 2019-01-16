@@ -21,6 +21,7 @@ const getBody = (releaseName) => {
   * Release Notes
     * [ ] Use the [release notes](https://github.com/upfrontIO/livingdocs-release-notes) generator with \`npx github:DaRaFF/release-notes-generator\`
     * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
+    * [ ] Add new test cases (of the current release) to [Testrail](https://livingdocs.testrail.io/)
     * [ ] Polish/Finish the [release notes](https://github.com/upfrontIO/livingdocs-release-notes)
   * UX Check
     * [ ] Integrate the latest version from master into service master
@@ -48,7 +49,6 @@ const getBody = (releaseName) => {
   * [ ] Update livingdocs-integration.json of the [server](https://github.com/upfrontIO/livingdocs-server/blob/master/livingdocs-integration.json)/[editor](https://github.com/upfrontIO/livingdocs-editor/blob/master/livingdocs-integration.json)
   * [ ] Update Integration overview [link](https://docs.google.com/spreadsheets/d/1CDY5wqXphXEfh2z4E1uM1RjBptvzMr8u0Wk5ZyXGzaY/edit#gid=0)
   * Test the upstream (assign a QA for upstream tests)
-    * [ ] Add new test cases (of the current release) to [Testrail](https://livingdocs.testrail.io/)
     * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/)
     * [ ] Test the upstream and add the results to [Testrail](https://livingdocs.testrail.io/)
     * [ ] categorise bugs in MUST and COULD fix (?)
