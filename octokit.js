@@ -18,7 +18,7 @@ module.exports = class Octokit {
       title: `Release Management Checklist for ${releaseHandle} Release`,
       body: body,
       assignee: assignee,
-      labels: ['rm/checklist', `${releaseHandle}`]
+      labels: ['4`]
     })
   }
 }
