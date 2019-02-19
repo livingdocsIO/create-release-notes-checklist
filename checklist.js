@@ -57,6 +57,7 @@ const getBody = (releaseName) => {
   * [ ] Manage/track MUST bugs
   * [ ] Groom release-notes
   # Announce Release (freeze +7 days)
+  * [ ] Get a Webinar date and link from Gabriel (add this to the release mail later)
   * [ ] Inform the team via slack that the release is ready in #announcements
     \`\`\`
     The release \`${releaseName}\` is ready.
@@ -67,6 +68,7 @@ const getBody = (releaseName) => {
     * [ ] communicate to the customer if a feature or a bugfix he expected is not taken care of.
   # NZZ Downstream QA
   * [ ] Organise with Michael Heiniger that \`upstream-${releaseName}\` links to the [nzz integration environment](edit-integration-test.nzz-tech.ch) (you can check the installed version [here](http://api-livingdocs-integration-test.nzz-tech.ch/nzz/release)
+  * [ ] Rebase the downstream integration branch of the NZZ
   * [ ] make a smoke test on the [nzz integration environment](edit-integration-test.nzz-tech.ch)
   * [ ] Contact Beat Strebel from the NZZ and tell him that the NZZ QA's can start with testing the release.
   * [ ] The NZZ QA's test the current release on the [nzz integration environment](https://edit-integration-test.nzz-tech.ch) (NZZ QA's)
