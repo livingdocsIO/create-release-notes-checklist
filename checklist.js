@@ -2,6 +2,14 @@ const getBody = (releaseName) => {
   return `
   **Important Pull Requests / Topics to integrate into the Release**
   * topic (who) [PR](http://link.to.pr)
+  
+  **Budget**
+
+  * 8h NZZ maintenance
+  * 4h Swisscom ?
+  * 4h Bluewin ?
+  * 16h Livingdocs (the rest)
+
   # Reminder (-3 days before code freeze)
   * [ ] Remind the team about todo's for the release in #announcements
     \`\`\`
