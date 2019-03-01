@@ -32,7 +32,7 @@ const getBody = (releaseName) => {
     * [ ] Add new test cases (of the current release) to [Testrail](https://livingdocs.testrail.io/)
     * [ ] Polish/Finish the [release notes](https://github.com/upfrontIO/livingdocs-release-notes)
   * UX Check
-    * [ ] Integrate the latest version from master into service master
+    * [ ] Integrate the latest version from master into service master ([service develop editor version](https://develop.livingdocs.io/version.json) // [service develop server version](https://service-server-develop.livingdocs.io/version)
     * [ ] Inform the UX team based on the latest release notes to check the UX
     \`\`\`
     Reminder: @rawdiggie @Sven Rüf
