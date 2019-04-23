@@ -8,7 +8,7 @@ const getBody = (releaseName) => {
   * 8h NZZ maintenance
   * 4h Swisscom ?
   * 4h Bluewin SLA
-  * 16h Livingdocs (the rest)
+  * 24h Livingdocs (8h testing + 16h other stuff)
 
   # Reminder (-3 days before code freeze)
   * [ ] Remind the team about todo's for the release in #announcements
