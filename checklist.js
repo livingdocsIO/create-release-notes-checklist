@@ -2,7 +2,7 @@ const getBody = (releaseName) => {
   return `
   **Important Pull Requests / Topics to integrate into the Release**
   * topic (who) [PR](http://link.to.pr)
-  
+
   **Budget**
 
   * 8h NZZ maintenance
@@ -56,7 +56,7 @@ const getBody = (releaseName) => {
   * [ ] Update livingdocs-integration.json of the [server](https://github.com/upfrontIO/livingdocs-server/blob/master/livingdocs-integration.json)/[editor](https://github.com/upfrontIO/livingdocs-editor/blob/master/livingdocs-integration.json)
   * [ ] Update Integration overview [link](https://docs.google.com/spreadsheets/d/1CDY5wqXphXEfh2z4E1uM1RjBptvzMr8u0Wk5ZyXGzaY/edit#gid=0)
   * Test the upstream (assign a QA for upstream tests)
-    * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with `npm run test:e2e:electron:testrail`
+  * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with \`npm run test:e2e:electron:testrail\`
     * [ ] Test the upstream and add the results to [Testrail](https://livingdocs.testrail.io/)
     * [ ] categorise bugs in MUST and COULD fix (?)
     * [ ] assign bugs to people
