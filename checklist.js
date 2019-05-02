@@ -19,7 +19,7 @@ const getBody = (releaseName) => {
         * Are there important pull requests/tickets which *MUST* be in the upcoming release? Please contact me, if necessary.
     \`\`\`
   # Code Freeze
-  * [ ] Update the framework version of the upstream [editor](https://github.com/upfrontIO/livingdocs-editor/blob/master/package.json)/[server](https://github.com/upfrontIO/livingdocs-server/blob/master/package.json) to the same version
+  * [ ] Update the framework version of the upstream [editor](https://github.com/upfrontIO/livingdocs-editor/blob/master/package.json)/[server](https://github.com/upfrontIO/livingdocs-server/blob/master/package.json) to the same version. -> [helper script](https://github.com/DaRaFF/livingdocs-framework-update)
   * [ ] Ask about state of the pull requests in #announcements
     \`\`\`
     * Today I will create the upstream release branch \`${releaseName}\`.
