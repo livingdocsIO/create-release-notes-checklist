@@ -85,20 +85,6 @@ const getBody = (releaseName) => {
     * Can we write a test for the regression bug?
     * Add documentation to the  [Release Management Log](https://docs.google.com/document/d/1Z4IwdwgHnNbnaH3m4WvTNSLkVO9xTB8umHCKNSk4Ja8/edit#) to talk about in the retrospective
   *  [ ] Manage NZZ Bug fixing
-  # Other Downstream QA
-  * Test and fix the other downstream projects
-    * Bluewin
-      *  [ ] Test the Bluewin Downstream
-      *  [ ] Manage Bug fixing
-    * Service
-      *  [ ] Test the Service Downstream
-      *  [ ] Manage Bug fixing
-    * Boilerplate
-      *  [ ] Test the Boilerplate Downstream
-      *  [ ] Manage Bug fixing
-    * Magazine Boilerplate
-      *  [ ] Test the Boilerplate Downstream
-      *  [ ] Manage Bug fixing
   `
 }
 
