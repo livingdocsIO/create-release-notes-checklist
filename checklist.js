@@ -6,7 +6,7 @@ const getBody = (releaseName) => {
   **Budget**
 
   * 8h NZZ maintenance
-  * 4h Swisscom ?
+  * 4h Swisscom SLA
   * 4h Bluewin SLA
   * 24h Livingdocs (8h testing + 16h other stuff)
 
