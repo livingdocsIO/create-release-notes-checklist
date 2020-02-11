@@ -6,9 +6,10 @@ const getBody = (releaseName) => {
   **Budget**
 
   * 8h NZZ maintenance
+  * 8h BLZ
   * 4h Swisscom SLA
   * 4h Bluewin SLA
-  * 24h Livingdocs (8h testing + 16h other stuff)
+  * 32h Livingdocs (8h testing + 24h other stuff)
 
   # Reminder (-3 days before code freeze)
   * [ ] Remind the team about todo's for the release in #announcements
