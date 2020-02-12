@@ -42,7 +42,7 @@ const getBody = (releaseName) => {
     Please check if everything is ok regarding UX.
     \`\`\`
   * Check if the downstream integration branches of the **PREVIOUS** release are in a correct state
-    * [ ] Rebase the downstream integration branches (service, boilerplate, nzz, bluewin)
+    * [ ] Rebase the downstream integration branches (boilerplate, nzz, bluewin, blz)
     * [ ] Pin the upstream version in the downstream branches to the correct version [editor](https://github.com/upfrontIO/livingdocs-editor/releases)/[server](https://github.com/upfrontIO/livingdocs-server/releases)
     * [ ] Check and update the integration notes (e.g. https://github.com/nzzdev/livingdocs-api/pull/3566#issue-173435126)
   * [ ] Set a main focus for testing
