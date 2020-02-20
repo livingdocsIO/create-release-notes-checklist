@@ -1,5 +1,8 @@
 const getBody = (releaseName) => {
   return `
+  **References**
+  * [Bug Dashboard](https://github.com/livingdocsIO/livingdocs-planning/projects/56)
+
   **Important Pull Requests / Topics to integrate into the Release**
   * topic (who) [PR](http://link.to.pr)
 
@@ -12,6 +15,7 @@ const getBody = (releaseName) => {
   * 16h Livingdocs
 
   # Reminder (-3 days before code freeze)
+  * [ ] Adapt the title of the [Bug Dashboard](https://github.com/livingdocsIO/livingdocs-planning/projects/56) for the next release name
   * [ ] Remind the team about todo's for the release in #announcements
     \`\`\`
     Hey all, the integration week is almost over
