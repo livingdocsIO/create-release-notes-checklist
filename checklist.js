@@ -31,7 +31,7 @@ const getBody = (releaseName) => {
     * Today I will create the upstream release branch \`${releaseName}\`.
     * Are there important un-merged pull requests? please contact me.
     \`\`\`
-  * [ ] Announce and [create the upstream release branch](https://github.com/upfrontIO/team/blob/master/How-We-Work/Release-Process/Details/Create-Release-Branches.md) for the server/editor
+  * [ ] Announce and [create the upstream release branch](https://github.com/upfrontIO/team/blob/master/How-We-Work/Release-Process/Details/Create-Release-Branches.md) for the server/editor/framework
   * Release Notes
     * [ ] Use the [release notes](https://github.com/upfrontIO/livingdocs-release-notes) generator with \`npx github:DaRaFF/release-notes-generator\`
     * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
