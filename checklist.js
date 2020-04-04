@@ -37,7 +37,7 @@ const getBody = (releaseName) => {
     * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
     * [ ] Add new test cases (of the current release) to [Testrail](https://livingdocs.testrail.io/)
     * [ ] Polish/Finish the [release notes](https://github.com/upfrontIO/livingdocs-release-notes)
-  * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with `npm run test:e2e:electron:testrail`
+  * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with `npm run cypress:testrail`
   * UX Check
     * [ ] Integrate the latest version from master into service master ([service develop editor version](https://develop.livingdocs.io/version.json) // [service develop server version](https://service-server-develop.livingdocs.io/version)
     * [ ] Inform the UX team based on the latest release notes to check the UX
