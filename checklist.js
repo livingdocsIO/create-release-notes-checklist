@@ -37,6 +37,7 @@ const getBody = (releaseName) => {
     * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
     * [ ] Add new test cases (of the current release) to [Testrail](https://livingdocs.testrail.io/)
     * [ ] Polish/Finish the [release notes](https://github.com/upfrontIO/livingdocs-release-notes)
+  * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with `npm run test:e2e:electron:testrail`
   * UX Check
     * [ ] Integrate the latest version from master into service master ([service develop editor version](https://develop.livingdocs.io/version.json) // [service develop server version](https://service-server-develop.livingdocs.io/version)
     * [ ] Inform the UX team based on the latest release notes to check the UX
@@ -61,8 +62,7 @@ const getBody = (releaseName) => {
     \`\`\`
   * [ ] Update livingdocs-integration.json of the [server](https://github.com/upfrontIO/livingdocs-server/blob/master/livingdocs-integration.json)/[editor](https://github.com/upfrontIO/livingdocs-editor/blob/master/livingdocs-integration.json)
   * [ ] Update Integration overview [link](https://docs.google.com/spreadsheets/d/1CDY5wqXphXEfh2z4E1uM1RjBptvzMr8u0Wk5ZyXGzaY/edit#gid=0)
-  * Test the upstream (assign a QA for upstream tests)
-  * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with \`npm run test:e2e:electron:testrail\`
+  * Upstream Test
     * [ ] Test the upstream and add the results to [Testrail](https://livingdocs.testrail.io/)
     * [ ] categorise bugs in MUST and COULD fix (?)
     * [ ] assign bugs to people
