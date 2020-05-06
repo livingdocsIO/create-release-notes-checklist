@@ -32,6 +32,7 @@ const getBody = (releaseName) => {
     \`\`\`
   * [ ] Announce and [create the upstream release branch](https://github.com/upfrontIO/team/blob/master/How-We-Work/Release-Process/Details/Create-Release-Branches.md) for the server/editor/framework
   * [ ] Update the framework version of the upstream editor/server to \`${releaseName}\`
+  * [ ] Remove the bluewin Drone build in the release branch \`${releaseName}\`
   * Release Notes
     * [ ] Use the [release notes](https://github.com/upfrontIO/livingdocs-release-notes) generator with \`npx github:DaRaFF/release-notes-generator\`
     * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
@@ -48,7 +49,7 @@ const getBody = (releaseName) => {
     Please check if everything is ok regarding UX.
     \`\`\`
   * Check if the downstream integration branches of the **PREVIOUS** release are in a correct state
-    * [ ] Rebase the downstream integration branches (boilerplate, nzz, bluewin, blz)
+    * [ ] Rebase the downstream integration branches (nzz)
     * [ ] Pin the upstream version in the downstream branches to the correct version [editor](https://github.com/upfrontIO/livingdocs-editor/releases)/[server](https://github.com/upfrontIO/livingdocs-server/releases)
     * [ ] Check and update the integration notes (e.g. https://github.com/nzzdev/livingdocs-api/pull/3566#issue-173435126)
   * [ ] Set a main focus for testing
