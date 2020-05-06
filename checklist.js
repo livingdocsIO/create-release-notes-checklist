@@ -57,7 +57,7 @@ const getBody = (releaseName) => {
     \`\`\`
     The release notes for \`${releaseName}\` are ready. Please review them carefully, because everybody should know what is part of our release. Also consider that the release-notes are provided to our customers.
     \`\`\`
-  * [ ] [Create downstream integration](https://github.com/upfrontIO/team/blob/master/How-We-Work/Release-Process/Details/Integration-Branches.md) branches of the next release (boilerplate, nzz, bluewin)
+  * [ ] [Create downstream integration](https://github.com/upfrontIO/team/blob/master/How-We-Work/Release-Process/Details/Integration-Branches.md) branches of the next release (nzz)
     \`\`\`
     npx @livingdocs/release-tools@latest create-downstream-release-branch
     \`\`\`
