@@ -62,7 +62,7 @@ const getBody = (releaseName) => {
     npx @livingdocs/release-tools@latest create-downstream-release-branch
     \`\`\`
   * [ ] Update livingdocs-integration.json of the [server](https://github.com/upfrontIO/livingdocs-server/blob/master/livingdocs-integration.json)/[editor](https://github.com/upfrontIO/livingdocs-editor/blob/master/livingdocs-integration.json)/[framework](https://github.com/upfrontIO/livingdocs-framework/blob/master/livingdocs-integration.json)
-    * attention: the default branch in livingdocs-integration.json of the framwork must be set to the release branch after creating the release branch
+    * attention: the \`defaultBranch\` in livingdocs-integration.json of the release branch in the framwork must be set to the current release after creating the release branch e.g. [example](https://github.com/livingdocsIO/livingdocs-framework/blob/release-2020-05/livingdocs-integration.json#L4)
   * [ ] Update Integration overview [link](https://docs.google.com/spreadsheets/d/1CDY5wqXphXEfh2z4E1uM1RjBptvzMr8u0Wk5ZyXGzaY/edit#gid=0)
   * Upstream Test
     * [ ] Test the upstream and add the results to [Testrail](https://livingdocs.testrail.io/)
@@ -81,18 +81,6 @@ const getBody = (releaseName) => {
     * [ ] merge the [release-notes](https://github.com/upfrontIO/livingdocs-release-notes) and the [documentation](https://github.com/upfrontIO/livingdocs)
     * [ ] communicate release to customers via [Campaign Monitor](https://livingdocsag.createsend.com/)
     * [ ] communicate to the customer if a feature or a bugfix he expected is not taken care of.
-  # NZZ Downstream QA
-  * [ ] Organise with Michael Heiniger that \`upstream-${releaseName}\` links to the [nzz integration environment](edit-integration-test.nzz-tech.ch) (you can check the installed version [here](http://api-livingdocs-integration-test.nzz-tech.ch/nzz/release)
-  * [ ] Rebase the downstream integration branch of the NZZ
-  * [ ] make a smoke test on the [nzz integration environment](edit-integration-test.nzz-tech.ch)
-  * [ ] Contact Beat Strebel from the NZZ and tell him that the NZZ QA's can start with testing the release.
-  * [ ] The NZZ QA's test the current release on the [nzz integration environment](https://edit-integration-test.nzz-tech.ch) (NZZ QA's)
-  * [ ] Categorise NZZ test results
-    * Are there error clusters?
-    * Can we activate/move features to the example server to detect problems earlier?
-    * Can we write a test for the regression bug?
-    * Add documentation to the  [Release Management Log](https://docs.google.com/document/d/1Z4IwdwgHnNbnaH3m4WvTNSLkVO9xTB8umHCKNSk4Ja8/edit#) to talk about in the retrospective
-  *  [ ] Manage NZZ Bug fixing
   `
 }
 
