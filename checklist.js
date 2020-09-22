@@ -9,11 +9,11 @@ const getBody = (releaseName) => {
 
   **Budget**
 
-  * 8h NZZ maintenance
-  * 8h BLZ
-  * 4h Swisscom SLA
-  * 4h Bluewin SLA
-  * 16h Livingdocs
+  * [ ] 8h NZZ maintenance
+  * [ ] 8h BLZ
+  * [ ] 4h Swisscom SLA
+  * [ ] 4h Bluewin SLA
+  * [ ] 16h Livingdocs
 
   # Reminder (-3 days before code freeze)
   * [ ] Adapt the title of the [Bug Dashboard](https://github.com/livingdocsIO/livingdocs-planning/projects/56) for the next release name
@@ -38,7 +38,7 @@ const getBody = (releaseName) => {
     * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
     * [ ] Add new test cases (of the current release) to [Testrail](https://livingdocs.testrail.io/)
     * [ ] Polish/Finish the [release notes](https://github.com/upfrontIO/livingdocs-release-notes)
-  * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with \`npm run cypress:testrail\`
+  * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with \`npm run cypress:testrail\` (start server/editor with \`ENVIRONMENT=cypress\`)
   * UX Check
     * [ ] Integrate the latest version from master into service master ([service develop editor version](https://develop.livingdocs.io/version.json) // [service develop server version](https://service-server-develop.livingdocs.io/version)
     * [ ] Inform the UX team based on the latest release notes to check the UX
