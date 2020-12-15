@@ -25,15 +25,16 @@ const getBody = (releaseName) => {
     \`\`\`
 
   # Release Notes
-  To make the process more efficient, it's also possible to start with release notes before the official code freeze
-    * [ ] Use the [release notes](https://github.com/upfrontIO/livingdocs-release-notes) generator with \`npx github:DaRaFF/release-notes-generator\`
-    * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
-    * [ ] Add new test cases (of the current release) to [Testrail](https://livingdocs.testrail.io/)
-    * [ ] Polish/Finish the [release notes](https://github.com/upfrontIO/livingdocs-release-notes)
-    * [ ] Ask for help with a release notes review in #announcements
-      \`\`\`
-      The release notes for \`${releaseName}\` are ready. Please review them carefully, because everybody should know what is part of our release. Also consider that the release-notes are provided to our customers.
-      \`\`\`
+  To make the process more efficient, it's also possible to start with release notes before the official code freeze.
+
+  * [ ] Use the [release notes](https://github.com/upfrontIO/livingdocs-release-notes) generator with \`npx github:DaRaFF/release-notes-generator\`
+  * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
+  * [ ] Add new test cases (of the current release) to [Testrail](https://livingdocs.testrail.io/)
+  * [ ] Polish/Finish the [release notes](https://github.com/upfrontIO/livingdocs-release-notes)
+  * [ ] Ask for help with a release notes review in #announcements
+    \`\`\`
+    The release notes for \`${releaseName}\` are ready. Please review them carefully, because everybody should know what is part of our release. Also consider that the release-notes are provided to our customers.
+    \`\`\`
 
   # Code Freeze
   * [ ] Ask about state of the pull requests in #announcements
@@ -70,8 +71,9 @@ const getBody = (releaseName) => {
     * attention: the \`defaultBranch\` in livingdocs-integration.json of the release branch in the framework must be set to the current release after creating the release branch e.g. [example](https://github.com/livingdocsIO/livingdocs-framework/blob/release-2020-05/livingdocs-integration.json#L4)
   
   # Testing (Upstream)
-    * [ ] Test the upstream and set the state to [Testrail](https://livingdocs.testrail.io/)
-    * [ ] Add Bugs to the [Bug Dashboard](https://github.com/livingdocsIO/livingdocs-planning/projects/56)
+
+  * [ ] Test the upstream and set the state to [Testrail](https://livingdocs.testrail.io/)
+  * [ ] Add Bugs to the [Bug Dashboard](https://github.com/livingdocsIO/livingdocs-planning/projects/56)
 
   # Announce Release (freeze +7 days)
   * [ ] Get a Webinar date and link from Gabriel (add this to the release mail later)
