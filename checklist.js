@@ -30,6 +30,10 @@ const getBody = (releaseName) => {
   * [ ] Use the [release notes](https://github.com/upfrontIO/livingdocs-release-notes) generator with \`npx github:DaRaFF/release-notes-generator\`
   * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
   * [ ] Add new test cases (of the current release) to [Testrail](https://livingdocs.testrail.io/)
+    \`\`\`js
+    // search for added cypress code to identify some new test cases, e.g.
+    git diff origin/release-2020-10 origin/master -- ./cypress
+    \`\`\`
   * [ ] Polish/Finish the [release notes](https://github.com/upfrontIO/livingdocs-release-notes)
   * [ ] Ask for help with a release notes review in #announcements
     \`\`\`
