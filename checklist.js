@@ -79,8 +79,7 @@ const getBody = (releaseName) => {
   # NZZ 
   * Check if the downstream integration branch of the **PREVIOUS** release are in a correct state
     * [ ] Rebase the downstream integration branch (nzz)
-    * [ ] Set the upstream version in the downstream branch to the correct version [editor](https://github.com/upfrontIO/livingdocs-editor/releases)/[server](https://github.com/upfrontIO/livingdocs-server/releases)
-    * [ ] Check and update the integration notes (e.g. https://github.com/nzzdev/livingdocs-api/pull/3566#issue-173435126)
+    * [ ] Check and update the integration notes
   * [ ] [Create downstream integration](https://github.com/upfrontIO/team/blob/master/How-We-Work/Release-Process/Details/Integration-Branches.md) branches of the next release (nzz)
     \`\`\`
     npx @livingdocs/release-tools@latest create-downstream-release-branch
