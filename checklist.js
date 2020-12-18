@@ -46,10 +46,6 @@ const getBody = (releaseName) => {
     * Today I will create the upstream release branch \`${releaseName}\`.
     * Are there important un-merged pull requests? please contact me.
     \`\`\`
-
-
-
-
   * [ ] Create a major bump PR (e.g. 12.2.7 -> 12.3.0) to master for the server/editor/framework
     \`\`\`
     // find the latest version on master
@@ -61,6 +57,12 @@ const getBody = (releaseName) => {
     \`\`\`
   * [ ] Announce and [create the upstream release branch](https://github.com/upfrontIO/team/blob/master/How-We-Work/Release-Process/Details/Create-Release-Branches.md) for the server/editor/framework
   * [ ] Update the framework version of the upstream editor/server in \`${releaseName}\` branch
+    \`\`\`
+    // change the framework version in editor/server to the release alias e.g. release-2020-12
+    package.json -> "@livingdocs/framework": "release-2020-12"
+    // update the package-lock.json
+    npm update @livingdocs/framework
+    \`\`\`
   * [ ] Remove the bluewin Drone build in \`${releaseName}\` branch
   * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with \`npm run cypress:testrail\` (start server/editor with \`ENVIRONMENT=cypress\`)
   * [ ] Update Integration overview [link](https://docs.google.com/spreadsheets/d/1CDY5wqXphXEfh2z4E1uM1RjBptvzMr8u0Wk5ZyXGzaY/edit#gid=0)
