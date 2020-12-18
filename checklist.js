@@ -46,6 +46,17 @@ const getBody = (releaseName) => {
     * Today I will create the upstream release branch \`${releaseName}\`.
     * Are there important un-merged pull requests? please contact me.
     \`\`\`
+
+
+
+
+  * [ ] Create a major bump PR (e.g. 12.2.7 -> 12.3.0) to master for the server/editor/framework
+    \`\`\`
+    // find the latest version on master
+    npx github:daraff/rili --token <your-personal-gh-token>
+    // create a bump pr
+    npx @daraff/create-bump-pr@latest --gh-token=<your-personal-gh-token> --gh-approval-token=<gh-livingdocs-automation-token> --owner=livingdocsio --repo=livingdocs-framework
+    \`\`\`
   * [ ] Announce and [create the upstream release branch](https://github.com/upfrontIO/team/blob/master/How-We-Work/Release-Process/Details/Create-Release-Branches.md) for the server/editor/framework
   * [ ] Update the framework version of the upstream editor/server in \`${releaseName}\` branch
   * [ ] Remove the bluewin Drone build in \`${releaseName}\` branch
