@@ -54,6 +54,8 @@ const getBody = (releaseName) => {
     \`\`\`
     // find the latest version on master
     npx github:daraff/rili --token <your-personal-gh-token>
+    // go to your repo (e.g. server) and pull the latest code into master via
+    git pull
     // create a bump pr
     npx @daraff/create-bump-pr@latest --gh-token=<your-personal-gh-token> --gh-approval-token=<gh-livingdocs-automation-token> --owner=livingdocsio --repo=livingdocs-framework
     \`\`\`
