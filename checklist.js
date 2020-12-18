@@ -92,15 +92,19 @@ const getBody = (releaseName) => {
   * [ ] Test the upstream and set the state to [Testrail](https://livingdocs.testrail.io/)
   * [ ] Add Bugs to the [Bug Dashboard](https://github.com/livingdocsIO/livingdocs-planning/projects/56)
 
-  # Announce Release (freeze +7 days)
-  * [ ] Get a Webinar date and link from Gabriel (add this to the release mail later)
+  # Webinar
+  * [ ] Get a feature webinar date and link from Gabriel (add this to the release mail later)
+  * [ ] Define a group of devs to present the dev webinar (ask devs if ok)
+  * [ ] Schedule dev release meeting (create link + invite devs via calendar)
+
+  # Release Communication (freeze +7 days)
   * [ ] Inform the team via slack that the release is ready in #announcements
     \`\`\`
     The release \`${releaseName}\` is ready.
     I will merge the release-notes and do the communication with the customers.
     \`\`\`
-    * [ ] merge the [release-notes](https://github.com/upfrontIO/livingdocs-release-notes) and the [documentation](https://github.com/upfrontIO/livingdocs)
-    * [ ] communicate release to customers via [Campaign Monitor](https://livingdocsag.createsend.com/)
+  * [ ] merge the [release-notes](https://github.com/upfrontIO/livingdocs-release-notes) and the [documentation](https://github.com/upfrontIO/livingdocs)
+  * [ ] communicate release to customers via [Campaign Monitor](https://livingdocsag.createsend.com/)
   `
 }
 
