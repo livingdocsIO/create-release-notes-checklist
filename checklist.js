@@ -63,7 +63,6 @@ const getBody = (releaseName) => {
     // update the package-lock.json
     npm update @livingdocs/framework
     \`\`\`
-  * [ ] Remove the bluewin Drone build in \`${releaseName}\` branch
   * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with \`npm run cypress:testrail\` (start server/editor with \`ENVIRONMENT=cypress\`)
   * [ ] Update Integration overview [link](https://docs.google.com/spreadsheets/d/1CDY5wqXphXEfh2z4E1uM1RjBptvzMr8u0Wk5ZyXGzaY/edit#gid=0)
 
