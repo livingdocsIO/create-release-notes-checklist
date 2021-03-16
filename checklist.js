@@ -13,7 +13,10 @@ const getBody = (releaseName) => {
   * [ ] 8h BLZ
   * [ ] 4h Swisscom SLA
   * [ ] 4h Bluewin SLA
-  * [ ] 16h Livingdocs
+  * [ ] 2h Aschendorff SLA
+  * [ ] 2h BMG SLA
+  * [ ] 4h SZ SLA
+  * [ ] 8h Livingdocs
 
   # Reminder (-3 days before code freeze)
   * [ ] Remind the team about todo's for the release in #announcements
