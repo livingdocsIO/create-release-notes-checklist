@@ -108,6 +108,13 @@ const getBody = (releaseName) => {
     \`\`\`
   * [ ] merge the [release-notes](https://github.com/upfrontIO/livingdocs-release-notes) and the [documentation](https://github.com/upfrontIO/livingdocs)
   * [ ] communicate release to customers via [Campaign Monitor](https://livingdocsag.createsend.com/)
+    \`\`\`
+    1) Ralph make a first draft version (release notes + zoom links
+    2) Sven/Celine/AJ update text/images to have a newsletter for both, business and service customers
+    3) Ralph sends the release notes to the business customers (campaign monitor list: release-notes-receiver)
+    4) Celine prepares/creates blog entries and other necessary tasks
+    5) Celine copies the release-notes, removes the zoom link and send the newsletter to the service customers
+    \`\`\`
   `
 }
 
