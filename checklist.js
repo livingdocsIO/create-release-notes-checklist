@@ -89,7 +89,12 @@ const getBody = (releaseName) => {
     \`\`\`
   * [ ] Update livingdocs-integration.json of the [server](https://github.com/upfrontIO/livingdocs-server/blob/master/livingdocs-integration.json)/[editor](https://github.com/upfrontIO/livingdocs-editor/blob/master/livingdocs-integration.json)/[framework](https://github.com/upfrontIO/livingdocs-framework/blob/master/livingdocs-integration.json)
     * attention: the \`defaultBranch\` in livingdocs-integration.json of the release branch in the framework must be set to the current release after creating the release branch e.g. [example](https://github.com/livingdocsIO/livingdocs-framework/blob/release-2020-05/livingdocs-integration.json#L4)
-  
+
+  # Preparation (for next cycle)
+
+  * [ ] Create next release notes PR (add references / todos / integration sections)
+  * [ ] Create Skeleton for Weekly Demo Slides / Demo Slides / Developer Webinar Slides and post the info to Slack
+
   # Testing (Upstream)
 
   * [ ] Test the upstream and set the state to [Testrail](https://livingdocs.testrail.io/)
