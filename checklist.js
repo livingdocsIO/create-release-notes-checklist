@@ -66,6 +66,7 @@ const getBody = (releaseName) => {
     // update the package-lock.json
     npm update @livingdocs/framework
     \`\`\`
+  * [ ] Update the [SDK](https://github.com/livingdocsIO/livingdocs-node-sdk) to version in \`${releaseName}\`
   * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with \`npm run cypress:testrail\` (start server/editor with \`ENVIRONMENT=cypress\`)
   * [ ] Update Integration overview [link](https://docs.google.com/spreadsheets/d/1CDY5wqXphXEfh2z4E1uM1RjBptvzMr8u0Wk5ZyXGzaY/edit#gid=0)
 
