@@ -67,7 +67,7 @@ const getBody = (releaseName) => {
     npm update @livingdocs/framework
     \`\`\` 
   * [ ] [Publish](https://github.com/livingdocsIO/livingdocs-framework/blob/master/packages/sdk-prebuild/DEV-README.md) a new \`@livingdocs/sdk-framework-prebuild\` npm version in the framework in \`${releaseName}\` branch and update the [SDK](https://github.com/livingdocsIO/livingdocs-node-sdk) to the generated version in \`${releaseName}\`
-  * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with \`npm run cypress:testrail\` (start server/editor with \`ENVIRONMENT=cypress\`)
+  * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with \`npm run cypress:testrail\` (do \`ENVIRONMENT=cypress livingdocs-server migrate up\` and start server/editor with \`ENVIRONMENT=cypress\`)
   * [ ] Update Integration overview [link](https://docs.google.com/spreadsheets/d/1CDY5wqXphXEfh2z4E1uM1RjBptvzMr8u0Wk5ZyXGzaY/edit#gid=0)
 
   # UX Check
