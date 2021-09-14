@@ -13,3 +13,7 @@ npx daraff/create-release-notes-checklist#master \
   --assignee='DaRaFF' \
   --token=<your-gh-token>
 ```
+
+# Create a new version on npm
+
+`GH_TOKEN=... npm run semantic-release`
