@@ -1,9 +1,8 @@
-const Octokit = require('./octokit')
+const createIssue = require('./lib/git/issues_create')
 
 // main application
 module.exports = async ({releaseHandle, releaseName, assignee, token}) => {
   let body = ''
-  const o = new Octokit(token)
 
   try {
     body = require('./checklist').getBody(releaseName)
@@ -11,11 +10,11 @@ module.exports = async ({releaseHandle, releaseName, assignee, token}) => {
     return new Error(`Checklist has not a proper Markdown format: ${e}`)
   }
 
-  const issue = await o.createIssue({
+  const issue = await createIssue({
+    token,
     body,
     assignee,
-    releaseHandle,
-    releaseName
+    releaseHandle
   })
     .catch((e) => {
       return e
