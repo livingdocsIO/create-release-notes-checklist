@@ -6,6 +6,14 @@ const getBody = (releaseName) => {
 
   **Important Pull Requests / Topics to integrate into the Release**
   * topic (who) [PR](http://link.to.pr)
+  
+  **Important Dates**
+  * release cut: 2021-10-26
+  * webinar mail (release cut + ca. 1 week):  [add Date]
+  * release notes mail (release cut + ca. 3 - 3,5 weeks):  [add Date]
+  * feature webinar (release cut + ca. 3 - 3,5 weeks):  [add Date]
+  * dev webinar prep (dev webinar - 1 week):  [add Date]
+  * dev webinar (release cut + ca. 3 - 3,5 weeks):  [add Date]
 
   **Budget**
 
@@ -101,26 +109,29 @@ const getBody = (releaseName) => {
   * [ ] Test the upstream and set the state to [Testrail](https://livingdocs.testrail.io/)
   * [ ] Add Bugs to the [Bug Dashboard](https://github.com/livingdocsIO/livingdocs-planning/projects/56)
 
-  # Webinar
-  * [ ] Get a feature webinar date and link from Gabriel (add this to the release mail later)
-  * [ ] Define a group of devs to present the dev webinar (ask devs if ok)
-  * [ ] Schedule dev release meeting (create link + invite devs via calendar)
 
-  # Release Communication (freeze +7 days)
-  * [ ] Inform the team via slack that the release is ready in #announcements
-    \`\`\`
-    The release \`${releaseName}\` is ready.
-    I will merge the release-notes and do the communication with the customers.
-    \`\`\`
-  * [ ] merge the [release-notes](https://github.com/upfrontIO/livingdocs-release-notes) and the [documentation](https://github.com/upfrontIO/livingdocs)
+  # Dev Webinar
+  
+  * [ ] Ralph: define dev webinar date + create zoom session
+  * [ ] Celine: get dev webinar date + zoom link from Ralph
+  * [ ] Celine prepare a "Webinar" mail and sends it to the business customers
+  * [ ] Ralph: Invite group of devs for dev webinar prep session
+
+  # Feature Webinar
+  
+  * [ ] Gabriel: define feature webinar date + create zoom session
+  * [ ] Celine: get dev webinar date + zoom link from Gabriel
+  * [ ] Celine prepare a "Webinar" mail and sends it to the business customers
+
+  # Release Communication
+  
+  * [ ] Inform the team via slack that the release is ready in #announcements (merge release notes too)
   * [ ] communicate release to customers via [Campaign Monitor](https://livingdocsag.createsend.com/)
-    \`\`\`
-    1) Ralph make a first draft version (release notes + zoom links
-    2) Sven/Celine/AJ update text/images to have a newsletter for both, business and service customers
-    3) Ralph sends the release notes to the business customers (campaign monitor list: release-notes-receiver)
-    4) Celine prepares/creates blog entries and other necessary tasks
-    5) Celine copies the release-notes, removes the zoom link and send the newsletter to the service customers
-    \`\`\`
+    * Celine: Makes a text draft in campaign monitor for the release notes based on release notes
+    * Celine: Gets/adds images from Sven for release notes
+    * Celine: Get reviews from people if necessary
+    * Ralph: Define a target date when release notes are sent
+    * Celine: Send release notes to business customers (campaign monitor list: release-notes-receiver)
   `
 }
 
