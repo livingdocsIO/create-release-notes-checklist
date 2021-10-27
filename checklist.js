@@ -128,6 +128,7 @@ const getBody = (releaseName) => {
   * [ ] Inform the team via slack that the release is ready in #announcements (merge release notes too)
   * [ ] communicate release to customers via [Campaign Monitor](https://livingdocsag.createsend.com/)
     * Celine: Makes a text draft in campaign monitor for the release notes based on release notes
+    * Celine: Get a list of new Documentation Guides based on the diff between the last 2 release
     * Celine: Gets/adds images from Sven for release notes
     * Celine: Get reviews from people if necessary
     * Ralph: Define a target date when release notes are sent
