@@ -101,7 +101,10 @@ const getBody = (releaseName) => {
 
   # Preparation (for next cycle)
 
-  * [ ] Create next release notes PR (add references / todos / integration sections)
+  * [ ] Create release notes template for next release in the documentation
+    * move master to subfolder \`${releaseName}\`
+    * create new master document (copy from \`${releaseName}\`, because the release-notes-generator does not work properly anymore)
+    * change \`excludeFromSearch\` in upcoming release, as soon as the release is officially out!
   * [ ] Create Skeleton for Weekly Demo Slides / Demo Slides / Developer Webinar Slides and post the info to Slack
 
   # Testing (Upstream)
