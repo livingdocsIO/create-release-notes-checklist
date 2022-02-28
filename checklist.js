@@ -114,10 +114,10 @@ const getBody = (releaseName) => {
 
   # Dev Webinar
   
-  * [ ] Ralph: define dev webinar date + create zoom session
-  * [ ] Celine: get dev webinar date + zoom link from Ralph
+  * [ ] Meinrad: define dev webinar date + create zoom session
+  * [ ] Celine: get dev webinar date + zoom link from Meinrad
   * [ ] Celine prepare a "Webinar" mail and sends it to the business customers
-  * [ ] Ralph: Invite group of devs for dev webinar prep session
+  * [ ] Meinrad: Invite group of devs for dev webinar prep session
 
   # Feature Webinar
   
