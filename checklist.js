@@ -24,7 +24,6 @@ const getBody = (releaseName) => {
   * [ ] 2h Aschendorff SLA
   * [ ] 2h BMG SLA
   * [ ] 4h SZ SLA
-  * [ ] 8h Livingdocs
 
   # Reminder (-3 days before code freeze)
   * [ ] Remind the team about todo's for the release in #announcements
@@ -38,7 +37,6 @@ const getBody = (releaseName) => {
   # Release Notes
   To make the process more efficient, it's also possible to start with release notes before the official code freeze.
 
-  * [ ] Use the [release notes](https://github.com/upfrontIO/livingdocs-release-notes) generator with \`npx github:DaRaFF/release-notes-generator\`
   * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
   * [ ] Add new test cases (of the current release) to [Testrail](https://livingdocs.testrail.io/)
     \`\`\`js
