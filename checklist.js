@@ -3,6 +3,7 @@ const getBody = (releaseName) => {
   **References**
   * [Bug Dashboard](https://github.com/livingdocsIO/livingdocs-planning/projects/56)
   * [Integration Branch Overview](https://docs.google.com/spreadsheets/d/1CDY5wqXphXEfh2z4E1uM1RjBptvzMr8u0Wk5ZyXGzaY/edit#gid=0)
+  * [Git repo for this checklist](https://github.com/DaRaFF/create-release-notes-checklist)
 
   **Important Pull Requests / Topics to integrate into the Release**
   * topic (who) [PR](http://link.to.pr)
