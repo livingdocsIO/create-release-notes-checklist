@@ -58,11 +58,7 @@ const getBody = (releaseName) => {
     \`\`\`
   * [ ] Create a major bump PR (e.g. 12.2.7 -> 12.3.0) to master for the server/editor/framework
     \`\`\`
-    // find the latest version on master
-    npx github:daraff/rili --token <your-personal-gh-token>
-    // go to your repo (e.g. server) and pull the latest code into master via
-    git pull
-    // create a bump pr
+    // create a bump pr (you don't have to be in the repo folder)
     npx @daraff/create-bump-pr@latest --gh-token=<your-personal-gh-token> --gh-approval-token=<gh-livingdocs-automation-token> --owner=livingdocsio --repo=livingdocs-framework
     \`\`\`
   * [ ] Announce and [create the upstream release branch](https://github.com/upfrontIO/team/blob/master/How-We-Work/Release-Process/Details/Create-Release-Branches.md) for the server/editor/framework
