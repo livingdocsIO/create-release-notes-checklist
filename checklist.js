@@ -2,7 +2,6 @@ const getBody = (releaseName) => {
   return `
   **References**
   * [Bug Dashboard](https://github.com/livingdocsIO/livingdocs-planning/projects/56)
-  * [Integration Branch Overview](https://docs.google.com/spreadsheets/d/1CDY5wqXphXEfh2z4E1uM1RjBptvzMr8u0Wk5ZyXGzaY/edit#gid=0)
   * [Git repo for this checklist](https://github.com/DaRaFF/create-release-notes-checklist)
 
   **Important Pull Requests / Topics to integrate into the Release**
@@ -126,7 +125,7 @@ const getBody = (releaseName) => {
     * Celine: Get a list of new Documentation Guides based on the diff between the last 2 release
     * Celine: Gets/adds images from Sven for release notes
     * Celine: Get reviews from people if necessary
-    * Ralph: Define a target date when release notes are sent
+    * Meinrad: Define a target date when release notes are sent
     * Celine: Send release notes to business customers (campaign monitor list: release-notes-receiver)
   `
 }
