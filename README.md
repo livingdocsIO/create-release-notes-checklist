@@ -16,4 +16,6 @@ npx daraff/create-release-notes-checklist#master \
 
 # Create a new version on npm
 
-`GH_TOKEN=... npm run semantic-release`
+🔥 Every time when you change something, you need to do these steps:
+- `GH_TOKEN=... npm run semantic-release` (pushes a new version to npm)
+- Ignore git tags, they are not relevant
