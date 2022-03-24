@@ -123,6 +123,7 @@ const getBody = (releaseName) => {
   * [ ] communicate release to customers via [Campaign Monitor](https://livingdocsag.createsend.com/)
     * Celine: Makes a text draft in campaign monitor for the release notes based on release notes
     * Celine: Get a list of new Documentation Guides based on the diff between the last 2 release
+      * Ralph: create doc diff \`git diff --numstat HEAD 42a518437c1aab00d83bb001b96e117a3173f7d8 -- content/guides\` 
     * Celine: Gets/adds images from Sven for release notes
     * Celine: Get reviews from people if necessary
     * Meinrad: Define a target date when release notes are sent
