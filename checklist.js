@@ -18,23 +18,9 @@ const getBody = (releaseName) => {
   To make the process more efficient, do constantly update the upcoming release notes until the official code freeze.
 
   * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
-  * [ ] Add new test cases (of the current release) to [Testrail](https://livingdocs.testrail.io/)
-    \`\`\`js
-    // search for added cypress code to identify some new test cases, e.g.
-    git diff origin/release-2020-10 origin/master -- ./cypress
-    \`\`\`
   * [ ] Polish/Finish the [release notes](https://github.com/upfrontIO/livingdocs-release-notes)
-  * [ ] Ask for help with a release notes review in #announcements
-    \`\`\`
-    The release notes for \`${releaseName}\` are ready. Please review them carefully, because everybody should know what is part of our release. Also consider that the release-notes are provided to our customers.
-    \`\`\`
 
   # Code Freeze
-  * [ ] Ask about state of the pull requests in #announcements
-    \`\`\`
-    * Today I will create the upstream release branch \`${releaseName}\`.
-    * Are there important un-merged pull requests? please contact me.
-    \`\`\`
   * [ ] Create a major bump PR (e.g. 12.2.7 -> 12.3.0) to master for the server/editor/framework
     \`\`\`
     // create a bump pr (you don't have to be in the repo folder)
@@ -49,7 +35,6 @@ const getBody = (releaseName) => {
     npm update @livingdocs/framework
     \`\`\` 
   * [ ] [Publish](https://github.com/livingdocsIO/livingdocs-framework/blob/master/packages/sdk-prebuild/DEV-README.md) a new \`@livingdocs/sdk-framework-prebuild\` npm version in the framework in \`${releaseName}\` branch and update the [SDK](https://github.com/livingdocsIO/livingdocs-node-sdk) to the generated version in \`${releaseName}\`
-  * [ ] Create a new test run in [Testrail](https://livingdocs.testrail.io/) with \`npm run cypress:testrail\` (do \`ENVIRONMENT=cypress livingdocs-server migrate up\` and start server/editor with \`ENVIRONMENT=cypress\`)
   * [ ] Update [rili](https://rili.cluster.livingdocs.io) (add next release to [json](https://github.com/DaRaFF/rili-livingdocs/blob/master/rili.json), update docker hub and deploy it to kube)
   * [ ] Get a list of new Documentation Guides based on the diff between the last 2 releases and give that info to the Marketing team -> \`git diff --numstat HEAD 42a518437c1aab00d83bb001b96e117a3173f7d8 -- content/guides\`
 
