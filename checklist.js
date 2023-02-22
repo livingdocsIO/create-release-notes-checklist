@@ -35,7 +35,6 @@ const getBody = (releaseName) => {
     npm update @livingdocs/framework
     \`\`\` 
   * [ ] [Publish](https://github.com/livingdocsIO/livingdocs-framework/blob/master/packages/sdk-prebuild/DEV-README.md) a new \`@livingdocs/sdk-framework-prebuild\` npm version in the framework in \`${releaseName}\` branch and update the [SDK](https://github.com/livingdocsIO/livingdocs-node-sdk) to the generated version in \`${releaseName}\`
-  * [ ] Update [rili](https://rili.cluster.livingdocs.io) (add next release to [json](https://github.com/DaRaFF/rili-livingdocs/blob/master/rili.json), update docker hub and deploy it to kube)
   * [ ] Get a list of new Documentation Guides based on the diff between the last 2 releases and give that info to the Marketing team -> \`git diff --numstat HEAD 42a518437c1aab00d83bb001b96e117a3173f7d8 -- content/guides\`
 
   # NZZ 
