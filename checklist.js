@@ -35,7 +35,7 @@ const getBody = (releaseName) => {
     npm update @livingdocs/framework
     \`\`\` 
   * [ ] [Publish](https://github.com/livingdocsIO/livingdocs-framework/blob/master/packages/sdk-prebuild/DEV-README.md) a new \`@livingdocs/sdk-framework-prebuild\` npm version in the framework in \`${releaseName}\` branch and update the [SDK](https://github.com/livingdocsIO/livingdocs-node-sdk) to the generated version in \`${releaseName}\`
-  * [ ] Get a list of new Documentation Guides based on the diff between the last 2 releases and give that info to the Marketing team -> \`git diff --numstat HEAD 42a518437c1aab00d83bb001b96e117a3173f7d8 -- content/guides\`
+  * [ ] Get a list of new Documentation Guides based on the diff between the last 2 releases and give that info to the Marketing team -> \`git diff origin/master@{"06.12.2022"} origin/master -- ./content/guides\`
 
   # NZZ 
   * Check if the downstream integration branch of the **PREVIOUS** release are in a correct state
