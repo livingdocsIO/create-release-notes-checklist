@@ -4,22 +4,6 @@ const getBody = (releaseName) => {
   * [Bug Dashboard](https://github.com/livingdocsIO/livingdocs-planning/projects/56)
   * [Git repo for this checklist](https://github.com/DaRaFF/create-release-notes-checklist)
 
-  **Budget**
-
-  * [ ] 8h NZZ maintenance
-  * [ ] 8h BLZ
-  * [ ] 4h Swisscom SLA
-  * [ ] 4h Bluewin SLA
-  * [ ] 2h Aschendorff SLA
-  * [ ] 2h BMG SLA
-  * [ ] 4h SZ SLA
-
-  # Release Notes
-  To make the process more efficient, do constantly update the upcoming release notes until the official code freeze.
-
-  * [ ] Read pull requests of the upstream [server](https://github.com/upfrontIO/livingdocs-server/tags)/[editor](https://github.com/upfrontIO/livingdocs-editor/tags), give feedback about quality (changelog, test instructions)
-  * [ ] Polish/Finish the [release notes](https://github.com/upfrontIO/livingdocs-release-notes)
-
   # Code Freeze
   * [ ] Create a major bump PR (e.g. 12.2.7 -> 12.3.0) to master for the server/editor/framework
     \`\`\`
