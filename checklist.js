@@ -10,6 +10,7 @@ const getBody = (releaseName) => {
     // create a bump pr (you don't have to be in the repo folder)
     npx @daraff/create-bump-pr@latest --gh-token=<your-personal-gh-token> --gh-approval-token=<gh-livingdocs-automation-token> --owner=livingdocsio --repo=livingdocs-framework
     \`\`\`
+    * [ ] Merge these PRs and wait for build to finish on master before continuing
   * [ ] Announce and [create the upstream release branch](https://github.com/upfrontIO/team/blob/master/How-We-Work/Release-Process/Details/Create-Release-Branches.md) for the server/editor/framework
   * [ ] Update the framework version of the upstream editor/server in \`${releaseName}\` branch
     \`\`\`
@@ -29,6 +30,7 @@ const getBody = (releaseName) => {
   * Check if the downstream integration branch of the **PREVIOUS** release are in a correct state
     * [ ] Check and update the integration notes
   * [ ] [Create downstream integration](https://github.com/upfrontIO/team/blob/master/How-We-Work/Release-Process/Details/Integration-Branches.md) branches of the next release for the NZZ (branch name: upstream-release-MMMM-YY) for the [nzz server](https://github.com/nzzdev/livingdocs-api) and [nzz editor](https://github.com/nzzdev/livingdocs-editor)
+    * [ ] Update server/editor package versions on the integration branch to the latest master tag of the upstream server/editor
   * [ ] Update \`defaultBranch\` and \`customBranches\` of livingdocs-integration.json on master of the [server](https://github.com/upfrontIO/livingdocs-server/blob/master/livingdocs-integration.json)/[editor](https://github.com/upfrontIO/livingdocs-editor/blob/master/livingdocs-integration.json)/[framework](https://github.com/upfrontIO/livingdocs-framework/blob/master/livingdocs-integration.json)
   * [ ] Attention: the \`defaultBranch\` in livingdocs-integration.json of the release branch in the framework must be set to the current release after creating the release branch e.g. [example](https://github.com/livingdocsIO/livingdocs-framework/blob/release-2020-05/livingdocs-integration.json#L4)
   `
