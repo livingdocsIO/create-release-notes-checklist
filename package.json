@@ -1,5 +1,5 @@
 {
-  "name": "@daraff/create-release-notes-checklist",
+  "name": "@livingdocs/create-release-notes-checklist",
   "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DaRaFF/create-release-notes-checklist.git"
+    "url": "git+https://github.com/livingdocsIO/create-release-notes-checklist.git"
   },
   "devDependencies": {
     "semantic-release": "^15.12.0",
@@ -28,7 +28,7 @@
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/DaRaFF/create-release-notes-checklist/issues"
+    "url": "https://github.com/livingdocsIO/create-release-notes-checklist/issues"
   },
-  "homepage": "https://github.com/DaRaFF/create-release-notes-checklist#readme"
+  "homepage": "https://github.com/livingdocsIO/create-release-notes-checklist#readme"
 }

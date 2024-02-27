@@ -2,13 +2,17 @@ const getBody = (releaseName) => {
   return `
   **References**
   * [Bug Dashboard](https://github.com/livingdocsIO/livingdocs-planning/projects/56)
-  * [Git repo for this checklist](https://github.com/DaRaFF/create-release-notes-checklist)
+  * [Git repo for this checklist](https://github.com/livingdocsIO/create-release-notes-checklist)
+
+  **Budget**
+
+  * [ ] 
 
   # Code Freeze
   * [ ] Create a major bump PR (e.g. 12.2.7 -> 12.3.0) to master for the server/editor/framework
     \`\`\`
     // create a bump pr (you don't have to be in the repo folder)
-    npx @daraff/create-bump-pr@latest --gh-token=<your-personal-gh-token> --gh-approval-token=<gh-livingdocs-automation-token> --owner=livingdocsio --repo=livingdocs-framework
+    npx @livingdocs/create-bump-pr@latest --gh-token=<your-personal-gh-token> --gh-approval-token=<gh-livingdocs-automation-token> --owner=livingdocsio --repo=livingdocs-framework
     \`\`\`
     * [ ] Merge these PRs and wait for build to finish on master before continuing
   * [ ] Announce and [create the upstream release branch](https://github.com/upfrontIO/team/blob/master/How-We-Work/Release-Process/Details/Create-Release-Branches.md) for the server/editor/framework
